@@ -1,0 +1,17 @@
+<HTML>
+<BODY>
+<H1>Hi! Welcome to Compute an American Put Option!
+<FORM METHOD="POST" ACTION="/cgi-bin/compute_option.cgi">
+<PRE>
+    Stock Price                <INPUT TYPE="text" NAME="stock_price"    MAXLENGTH=10 SIZE=10> 
+    Strike Price               <INPUT TYPE="text" NAME="strike_price"   MAXLENGTH=10 SIZE=10>         
+    Risk-Free Interest Rate    <INPUT TYPE="text" NAME="interest_rate"  MAXLENGTH=10 SIZE=10>
+    Expiration Time (in years) <INPUT TYPE="text" NAME="expiration"     MAXLENGTH=10 SIZE=10>
+    Volatility (sigma)         <INPUT TYPE="text" NAME="sigma"          MAXLENGTH=10 SIZE=10>
+    Size of Binomial Tree      <INPUT TYPE="text" NAME="bintreesize"    MAXLENGTH=10 SIZE=10>
+                <INPUT TYPE="submit" VALUE="Compute!">
+                <INPUT TYPE="reset" value=" Clear Form">
+</PRE>
+</FORM>
+</BODY>
+</HTML>
